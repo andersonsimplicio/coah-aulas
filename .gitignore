@@ -1,0 +1,32 @@
+web/node_modules/*
+server/node_modules/*
+mobile/node_modules/*
+server/src/database/database.sqlite
+# Ignore node_modules em todas as pastas
+node_modules/
+
+# Ignore arquivos de build em cada sub-pasta
+web/build/
+mobile/build/
+server/build/
+
+# Ignore arquivos SQLite em cada sub-pasta
+web/*.sqlite
+mobile/*.sqlite
+server/*.sqlite
+
+# Ignore arquivos de configuração específicos de desenvolvimento
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos gerados pelo editor
+.idea/
+.vscode/
+*.swp
+
